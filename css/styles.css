@@ -1,0 +1,49 @@
+h1 {
+  color:blue;
+}
+
+#burger {
+
+}
+
+#offscreennav ul {
+ list-style-type: none;
+ font-size: 2em;
+ padding: 5%;
+}
+
+#offscreennav {
+  background: white;
+  position:absolute;
+  top: 0;
+  left:0;
+  width:0px;
+  overflow:hidden;
+}
+
+#closebutton{
+  float:right;
+}
+
+#moreinfo{
+  color:blue;
+}
+
+#tooltip {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  width: 150px;
+  height: 150px;
+  border: 1px solid;
+  box-shadow: 2px 2px 2px grey;
+  position:absolute;
+  top:0;
+  right:0;
+  opacity: 0;
+}
+
+span {
+  cursor: pointer;
+}
